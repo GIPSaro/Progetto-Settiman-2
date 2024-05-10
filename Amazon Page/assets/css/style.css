@@ -8,6 +8,7 @@ body {
 span {
   padding-left: 10px;
 }
+/* BANNER CON LOGO AMAZON */
 
 .banner {
   background-color: #21303e;
@@ -31,6 +32,9 @@ span {
 .testobianco p {
   font-size: 1rem;
 }
+
+/* NAVBAR */
+
 #navBar {
   background-color: #36485a;
 }
@@ -44,6 +48,9 @@ nav table td {
 main {
   margin: 30px;
 }
+
+/* BLOCCO ARANCIONE */
+
 #bloccoarancione {
   background-color: #f56500;
   text-align: center;
@@ -52,6 +59,9 @@ main {
   padding: 10px 0;
   margin-bottom: 30px;
 }
+
+/* BLOCCO VERDE */
+
 #bloccoverde {
   background-image: url(../images/bg-image.png);
   text-align: center;
@@ -69,6 +79,9 @@ main {
   padding-top: 10px;
   padding-bottom: 30px;
 }
+
+/* PARTE DELLE QUATTRO IMMAGINI */
+
 #perfectgift {
   background-color: white;
   margin: 50px 0;
@@ -103,6 +116,9 @@ main a {
 #blocchimg:hover {
   cursor: pointer;
 }
+
+/* PARTE DELLE ULTIME DUE IMMAGINI */
+
 .blocchicentrali img {
   width: 100%;
 }
@@ -111,6 +127,9 @@ main a {
   text-align: center;
   padding: 1rem;
 }
+
+/* FOOTER */
+
 #scrolltotop {
   text-align: center;
   padding: 20px;
