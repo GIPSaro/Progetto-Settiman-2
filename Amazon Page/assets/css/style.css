@@ -1,1 +1,41 @@
 /* Your styles here */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eaedee;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: content-box;
+}
+
+.banner {
+  background-color: #21303e;
+}
+
+.banner img {
+  width: 10%;
+  margin: 10px 0;
+  margin-left: 20px;
+}
+
+.banner:hover {
+  cursor: pointer;
+}
+.testobianco td:hover {
+  cursor: pointer;
+}
+.testobianco {
+  color: white;
+}
+.testobianco p {
+  font-size: 10px;
+}
+#navBar {
+  background-color: #36485a;
+}
+
+nav table td {
+  margin: 0;
+  padding: 10px;
+  padding-left: 20px;
+}
