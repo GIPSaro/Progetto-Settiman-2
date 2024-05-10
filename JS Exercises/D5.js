@@ -23,7 +23,9 @@ for (let i = 0; i < 4; i++) {
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
 console.log("ESERCIZIO 2");
-const alphOrder = pets.sort();
+
+const alphOrder = pets.sort(); // il metodo sort() mette gli elementi dell'array in ordine alfabetico
+
 console.log("Array after edit Alphabetic Order:", alphOrder);
 
 /* ESERCIZIO 3
@@ -32,7 +34,8 @@ console.log("Array after edit Alphabetic Order:", alphOrder);
 
 console.log("ESERCIZIO 3");
 
-const petsReverse = pets.reverse();
+const petsReverse = pets.reverse(); // il metodo reverse() mette gli elementi dell'array nell'ordine inverso
+
 console.log("Array after Reverse:", pets);
 
 /* ESERCIZIO 4
@@ -41,8 +44,11 @@ console.log("Array after Reverse:", pets);
 
 console.log("ESERCIZIO 4");
 
-let animaletti = pets.shift();
-pets.push(animaletti);
+let animaletti = pets.shift(); // il metodo shif() mi seleziona il primo elemento dell'array
+//console.log(animaletti);
+
+pets.push(animaletti); // lo inserisco di nuovo nell'array ma stavolta finisce in ultima posizione
+
 console.log("Array after the Move:", pets);
 
 /* ESERCIZIO 5
@@ -73,6 +79,7 @@ const cars = [
 ];
 
 cars.forEach((element) => {
+  //ciclo gli elementi con il metodo forEach
   element.licensePlate = "AV1234DM";
   console.log("Add License Plate: ", cars);
 });
@@ -93,6 +100,7 @@ let micra = {
 cars.push(micra);
 console.log("Add New Car: ", cars);
 cars.forEach((element) => {
+  // uso il metodo forEach per ciclare
   return element.trims.pop();
 });
 console.log("Delete Last Trims Element in every car: ", cars);
@@ -118,8 +126,9 @@ console.log("ESERCIZIO 8");
 
 for (let i = 0; i < 4; i++) {
   let first = cars[i];
-  let firstLetter = first.color.charAt(0);
+  let firstLetter = first.color.charAt(0); //uso il metodo charAt per selezionare la prima lettera
   if (firstLetter === "b") {
+    //la confronto con b
     console.log("Fizz");
   } else {
     console.log("Buzz");
