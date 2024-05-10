@@ -48,6 +48,9 @@ console.log("Array after the Move:", pets);
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
 */
+
+console.log("ESERCIZIO 5");
+
 const cars = [
   {
     brand: "Ford",
@@ -69,10 +72,30 @@ const cars = [
   },
 ];
 
+cars.forEach((element) => {
+  element.licensePlate = "AV1234DM";
+  console.log("Add License Plate: ", cars);
+});
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+console.log("ESERCIZIO 6");
+
+let micra = {
+  brand: "Nissan",
+  cabrio: "None",
+  model: "Micra",
+  color: "graysmoke",
+  trims: ["life", "style", "r-line"],
+};
+cars.push(micra);
+console.log("Add New Car: ", cars);
+cars.forEach((element) => {
+  return element.trims.pop();
+});
+console.log("Delete Last Trims Element in every car: ", cars);
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
