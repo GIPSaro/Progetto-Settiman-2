@@ -100,23 +100,54 @@ console.log("Delete Last Trims Element in every car: ", cars);
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
+console.log("ESERCIZIO 7");
 const justTrims = [];
+
+cars.forEach((element) => {
+  let trims = element.trims[0];
+  console.log(trims);
+  justTrims.push(trims);
+});
+console.log(justTrims);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+console.log("ESERCIZIO 8");
+
+for (let i = 0; i < 4; i++) {
+  let first = cars[i];
+  let firstLetter = first.color.charAt(0);
+  if (firstLetter === "b") {
+    console.log("Fizz");
+  } else {
+    console.log("Buzz");
+  }
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
+console.log("ESERCIZIO 9");
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
+
+console.log(numericArray);
+numericArray.length = 14;
+let i = 0;
+while (i < numericArray.length) {
+  let finoA32 = numericArray[i];
+  i++;
+  console.log(finoA32);
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
+
+console.log("ESERCIZIO 10");
 const charactersArray = ["g", "n", "u", "z", "d"];
