@@ -151,3 +151,78 @@ while (i < numericArray.length) {
 
 console.log("ESERCIZIO 10");
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+console.log(charactersArray);
+
+const positionArr = [];
+for (let i = 0; i < charactersArray.length; i++) {
+  const character = charactersArray[i];
+
+  switch (character) {
+    case "a":
+      positionArr.push(1);
+      break;
+    case "b":
+      positionArr.push(2);
+      break;
+    case "c":
+      positionArr.push(3);
+      break;
+    case "d":
+      positionArr.push(4);
+      break;
+    case "e":
+      positionArr.push(5);
+      break;
+    case "f":
+      positionArr.push(6);
+      break;
+    case "g":
+      positionArr.push(7);
+      break;
+    case "h":
+      positionArr.push(8);
+      break;
+    case "i":
+      positionArr.push(9);
+      break;
+    case "l":
+      positionArr.push(10);
+      break;
+    case "m":
+      positionArr.push(11);
+      break;
+    case "n":
+      positionArr.push(12);
+      break;
+    case "o":
+      positionArr.push(13);
+      break;
+    case "p":
+      positionArr.push(14);
+      break;
+    case "q":
+      positionArr.push(15);
+      break;
+    case "r":
+      positionArr.push(16);
+      break;
+    case "s":
+      positionArr.push(17);
+      break;
+    case "t":
+      positionArr.push(18);
+      break;
+    case "u":
+      positionArr.push(19);
+      break;
+    case "v":
+      positionArr.push(20);
+      break;
+    case "z":
+      positionArr.push(21);
+      break;
+  }
+}
+
+console.log(positionArr);
