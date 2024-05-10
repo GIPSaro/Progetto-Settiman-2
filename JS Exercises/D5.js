@@ -32,9 +32,18 @@ console.log("Array after edit Alphabetic Order:", alphOrder);
 
 console.log("ESERCIZIO 3");
 
+const petsReverse = pets.reverse();
+console.log("Array after Reverse:", pets);
+
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+
+console.log("ESERCIZIO 4");
+
+let animaletti = pets.shift();
+pets.push(animaletti);
+console.log("Array after the Move:", pets);
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
