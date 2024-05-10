@@ -49,7 +49,7 @@ main {
   margin-bottom: 30px;
   margin: 0;
   padding: 10px 0;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 #bloccoverde {
   background-image: url(../images/bg-image.png);
@@ -66,4 +66,36 @@ main {
 #bloccoverde h3 {
   padding-top: 10px;
   padding-bottom: 30px;
+}
+#perfectgift {
+  background-color: white;
+  margin: 50px 0;
+  padding-top: 20px;
+}
+
+#perfectgift h2 {
+  margin-left: 28px;
+  margin-bottom: 15px;
+}
+
+#blocchimg img {
+  width: 380px;
+  max-height: 450px;
+  min-height: 380px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 2px 2px 4px #afaeae;
+}
+
+main a {
+  color: #3d6a81;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+#blocchimg {
+  margin-left: 0px;
+  background-color: white;
+  padding-left: 20px;
+  font-size: 300px;
 }
